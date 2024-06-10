@@ -24,6 +24,7 @@ format:
     theme: simplex
     css: styles.css
     toc: true
-
-
-
+    include-in-header:
+      text: | <link rel="icon" sizes="256x256" href="https://tieknots.how/favicon.png">
+            | <link rel="icon" sizes="128x128" href="https://tieknots.how/favicon@128px.png">
+            | <link rel="icon" sizes="48x48" href="https://tieknots.how/favicon@48px.png">
