@@ -24,9 +24,9 @@ jobs:
       - name: Publish
         uses: easingthemes/ssh-deploy@v2
         with:
-	  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-	  REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-	  REMOTE_USER: ${{ secrets.REMOTE_USER }}
-	  SOURCE: "_site/"
-	  TARGET: ${{ secrets.REMOTE_TARGET }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          SOURCE: "_site/"
+          TARGET: ${{ secrets.REMOTE_TARGET }}
 
