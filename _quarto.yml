@@ -19,6 +19,7 @@ resources:
   - "lrc_pngs/"
   - "data/"
   - "favicon*.png"
+  - "site.webmanifest"
 
 format:
   html:
@@ -27,6 +28,10 @@ format:
     toc: true
     include-in-header:
       text: |
-        <link rel="icon" sizes="256x256" href="https://tieknots.how/favicon.png">
-        <link rel="icon" sizes="128x128" href="https://tieknots.how/favicon@128px.png">
-        <link rel="icon" sizes="48x48" href="https://tieknots.how/favicon@48px.png">
+        <link rel="icon" type="image/png" sizes="256x256" href="/favicon.png">
+        <link rel="icon" type="image/png" sizes="128x128" href="/favicon@128px.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon@48px.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
