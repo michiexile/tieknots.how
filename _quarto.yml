@@ -18,7 +18,7 @@ resources:
   - "jquery-2.0.3.min.js"
   - "lrc_pngs/"
   - "data/"
-  - "favicon*.png"
+  - "*.png"
   - "site.webmanifest"
 
 format:
