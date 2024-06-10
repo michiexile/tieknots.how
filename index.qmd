@@ -64,3 +64,8 @@ You can to read the grammars we specified, and their corresponding knot counts a
 ## Press mentions
 
 We have collected our press mentions on a [separate page](press.qmd).
+
+## Can I Contribute?
+
+Send me a [pull request](https://github.com/michiexile/tieknots.how) if you want to contribute to the site.
+
