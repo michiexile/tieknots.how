@@ -1,0 +1,32 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+
+name: Quarto Publish to GreenGeeks
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      deployments: write # is this needed?
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto project
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Publish
+        uses: easingthemes/ssh-deploy@v2
+        with:
+	  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+	  REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+	  REMOTE_USER: ${{ secrets.REMOTE_USER }}
+	  SOURCE: "_site/"
+	  TARGET: ${{ secrets.REMOTE_TARGET }}
+
