@@ -1,0 +1,82 @@
+---
+title: Tieknot grammars
+---
+
+# Different grammars for tie knots
+
+In our paper, we specify a number of grammars for different variations of tie knot families. In our BNF-style notation below, we will use \[foo\] to denote a non-terminal symbol. We will avoid using optionally included symbols.
+
+## Fink and Mao
+
+First off, a grammar based on the rules used by Fink and Mao in their original paper.
+
+    [tie] ::= L [L_]
+    [L_]  ::= R [R_] | C [C_] | RCU
+    [R_]  ::= L [L_] | C [C_] | LCU
+    [C_]  ::= L [L_] | R [R_]
+
+You can [explore this grammar interactively](explore-finkmao.html).
+
+The generating function for this language is *z^3^/((1+z)(1-2z))*.
+
+  ----------- --- --- --- --- ---- ---- ---- -------
+  Length:     3   4   5   6   7    8    9    total
+  \# knots:   1   1   3   5   11   21   43   85
+  ----------- --- --- --- --- ---- ---- ---- -------
+
+## Singly tucked
+
+A first extension of the tie knot grammar allows for arbitrarily located tucks, but that only tuck under the most recently created bow across the knot. This is their grammar:
+
+    [tie] ::= L [L_]  | LR [R_]  | LC [C_]
+    [L_]  ::= RL [L_] | CL [L_]  |
+              RC [C_] | RCU [C_] | RCU |
+              CR [R_] | CRU [R_] | CRU
+    [R_]  ::= LR [R_] | CR [R_]  |
+              CL [L_] | CLU [L_] | CLU |
+              LC [C_] | LCU [C_] | LCU
+    [C_]  ::= LC [C_] | RC [C_]  |
+              RL [L_] | RLU [L_] | RLU |
+              LR [R_] | LRU [R_] | LRU
+
+You can [explore this grammar interactively](explore-singly.html).
+
+The generating function for this language is *2z^3^(2z+1)/(1-6z^2^)*.
+
+  ----------- --- --- ---- ---- ---- ----- ----- ----- ------- ------- -------- --------
+  Length:     3   4   5    6    7    8     9     10    11      12      13       total
+  \# knots:   2   4   12   24   72   144   432   864   2 592   4 146   15 552   24 882
+  ----------- --- --- ---- ---- ---- ----- ----- ----- ------- ------- -------- --------
+
+## Fully tucked
+
+For the widest range of tie knots we can describe, we will be using the Turnwise/Widdershins notation. You can translate back to the easier to read LRC notation by assuming an L starting symbol, and then using the translation table:
+
+  ------------- --- --- ---
+  If I am in:   L   R   C
+  And see T:    C   L   R
+  And see W:    R   C   L
+  ------------- --- --- ---
+
+The grammar for arbitrarily deeply tucked tie knots then is:
+
+        [tie]    ::= [prefix] ([pair | tuck])* [tuck]
+        [prefix] ::= T | W | ε
+        [pair]   ::= TT | TW | WT | WW
+        [tuck]   ::= [ttuck2] | [wtuck2]
+        [ttuck2] ::= TT[w0]U | TW[w1]U
+        [wtuck2] ::= WW[w0]U | WT[w2]U
+        [w0]     ::= WW[w1]U | WT[w0]U | TW[w0]U | TT[w2]U |
+                     [ttuck2]'[w2]U    | [wtuck2]'[w1]U    | ε
+        [w1]     ::= WW[w2]U | WT[w1]U | TW[w1]U | TT[w0]U |
+                     [ttuck2]'[w0]U    | [wtuck2]'[w2]U
+        [w2]     ::= WW[w0]U | WT[w2]U | TW[w2]U | TT[w1]U |
+                     [ttuck2]'[w1]U    | [wtuck2]'[w0]U
+
+You can [explore this grammar interactively](explore-full.html).
+
+  ----------- --- --- ---- ---- ----- ----- ------- ------- -------- -------- --------- ---------
+  Length:     3   4   5    6    7     8     9       10      11       12       13        total
+  \# knots:   2   4   20   40   192   384   1 896   3 792   19 320   38 640   202 392   266 682
+  ----------- --- --- ---- ---- ----- ----- ------- ------- -------- -------- --------- ---------
+

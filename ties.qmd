@@ -1,0 +1,191 @@
+---
+title: Random tie knot generator
+---
+
+<script src="jquery-2.0.3.min.js"></script>
+<script>
+"use strict";
+var maxN = 682;
+var dirs = ['R','L','C'];
+// deliberately the wrong way around: we're constructing the knot by reverse traversal
+var sites = {'W':{'R':'C', 'C':'L', 'L':'R'}, 'T':{'L': 'C', 'C': 'R', 'R': 'L'}};
+
+function getQueryVariables()
+{
+       var Q = Object();
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               Q[pair[0].toUpperCase()] = pair[1].toUpperCase();
+       }
+       return(Q);
+}
+try{
+var Q = getQueryVariables()
+} catch(err) { Q = Object();}
+if('D' in Q && dirs.indexOf(Q.D) != -1) {
+  var tieD = Q.D;
+} else {
+  var tieD = dirs[Math.floor(Math.random()*dirs.length)];
+}
+
+if('N' in Q && !isNaN(parseInt(Q.N)) && parseInt(Q.N) > 0 && parseInt(Q.N) <= maxN) {
+  var tieN = parseInt(Q.N);
+} else {
+  var tieN = Math.floor(Math.random()*maxN);
+}
+
+var lrc="";
+if('LRC' in Q) {
+  lrc = Q.LRC;
+}
+var tw = "";
+if('TW' in Q) {
+    tw = Q.TW;
+}
+
+var tiename = tieD + '-' + tieN;
+var tiefile = 'data/' + tiename + '.tie';
+
+var pickUs = function(str) {
+    var origret = str.split('');
+    // Test if Q.S is a version of str
+    if('S' in Q) {
+        var retQS = true;
+        var QS = Q.S.split('');
+        var i = 0;
+        var j = 0;
+        while(i < origret.length) {
+            while(origret[i] == 'u') {
+                i += 1;
+            }
+            while(QS[j] == 'U') {
+                j += 1;
+            }
+            if(origret[i] == QS[j]) {
+                i += 1;
+                j += 1;
+            } else {
+                retQS = false;
+                break;
+            }
+        }
+        while(QS[j] == 'U') {
+            j += 1;
+        }
+        if(retQS && j == QS.length+1) {
+            return Q.S;
+        }
+    }
+
+    var ws = 0, ts = 0;
+    var ret = [];
+    for(var i=origret.length-1; i>=0; i--) {
+	if(origret[i] == 'W') {
+	    ws++;
+	    ret.unshift(origret[i]);
+	}
+	if(origret[i] == 'T') {
+	    ts++;
+	    ret.unshift(origret[i]);
+	}
+	if(origret[i] == 'u' && (ws+ts)%2 == 0 && ws+ts > 1) ret.unshift(origret[i]);
+    }
+
+    for(var i=0; i<ret.length-1; i++) {
+	if(ret[i] == 'u' && Math.random()>0.5) {
+	    ret[i] = 'U';
+	}
+    }
+    ret.slice(-1,1); ret.push('U');
+    return ret.filter(function(c) { return c != 'u' }).join('');
+}
+
+var tieurl;
+
+function TWtoLRC(twstring) {
+    var lrc_sites = {'T':{'R':'C', 'C':'L', 'L':'R'}, 'W':{'L': 'C', 'C': 'R', 'R': 'L'}};
+    var ret = 'L';
+    var site = 'L';
+    for(var i=0; i<twstring.length; i++) {
+        if(twstring[i] == 'U') {
+            ret += twstring[i];
+        } else {
+            site = lrc_sites[twstring[i]][site];
+            ret += site;
+        }
+    }
+    return ret;
+}
+
+var tieurl = function (tie) {
+    return "http://tieknots.johanssons.org/ties.html?LRC=" + tie;
+}
+var tieurl_decoded = function (tie) {
+    return "http://tieknots.johanssons.org/ties.html?LRC=" + tie;
+}
+
+function drawTie(lrcseq, lrcdisp) {
+    if(lrcseq.indexOf("RR") > -1 || lrcseq.indexOf("LL") > -1 || lrcseq.indexOf("CC") > -1) {
+        $('#tieknottext').append(lrcseq + " is not a valid tie knot string");
+        return;
+    }
+    $('#tieknottext')
+        .append('Your tie is: <a href="'+tieurl_decoded(lrcdisp)+'">'+lrcdisp+'</a>')
+    var mytie = 'My tie is ' + lrcdisp;
+    $(document).prop('title', lrcdisp);
+    $('#metaDesc').attr('content', lrcdisp);
+    $('#metaTitle').attr('content', lrcdisp + '; ' + tieurl(lrcdisp));
+    $('#metaURL').attr('content', '');
+
+    var IO = 0;
+    for(var i=0; i<lrcseq.length; i++) {
+        if(lrcseq[i] != 'U') {
+            IO++;
+        }
+    }
+
+    if(IO % 2 == 0) {
+        $('#tie').append($("<img src='lrc_pngs/ties-L-i.png' />"));
+    } else {
+        $('#tie').append($("<img src='lrc_pngs/ties-L-o.png' />"));
+    }
+    for(var i=1; i<lrcseq.length; i++) {
+        var inout = (IO+i) % 2;
+        if(lrcseq[i] == 'U') {
+            $('#tie').append($("<img src='lrc_pngs/ties-" + lrcseq.slice(i-1,i+2) + ".ai.png' />"));
+            i++;
+        }
+        else if(inout == 0) {
+            $('#tie').append($("<img src='lrc_pngs/ties-" + lrcseq.slice(i-1,i+1) + "-o.ai.png' />"));
+        }
+        else {
+            $('#tie').append($("<img src='lrc_pngs/ties-" + lrcseq.slice(i-1,i+1) + "-i.ai.png' />"));
+        }
+    }
+}
+
+$(function() {
+    if(lrc.length > 0) {
+        drawTie(lrc.replace(/(.)\1+/g, '$1'), lrc);
+    } else if(tw.length > 0) {
+        var twlrc = TWtoLRC(tw);
+        drawTie(twlrc.replace(/(.)\1+/g, '$1'), twlrc);
+    } else {
+        var tieknot = $.get(tiefile, function (t) {
+            var tie = pickUs(t);
+            var lrcseq = TWtoLRC(tie);
+            drawTie(lrcseq, lrcseq);
+        });
+    }
+});
+
+</script>
+
+
+<p id="tieknottext"></p>
+
+Here's how you tie it:
+
+<div id="tie"></div>

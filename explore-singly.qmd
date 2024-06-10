@@ -1,0 +1,147 @@
+---
+title: Explore - The full tieknots language
+include-before-body:
+  text: |
+    <script src="jquery-2.0.3.min.js"></script>
+    <script>
+        "use strict";
+        function click(elem) {
+            console.log(elem);
+        }
+
+        function tie(elem) {
+            L(elem);
+        }
+
+        var allChoices = {
+        tie:
+        {
+            OPT: [
+                {label: "[tie]", nextfunction: "", emit: ""},
+                {label: "L [L_]", nextfunction: "L", emit: "L"},
+                {label: "LR [R_]", nextfunction: "R", emit: "LR"},
+                {label: "LC [C_]", nextfunction: "C", emit: "LC"}
+            ],
+        },
+        terminal:
+        {
+            TERMINAL: true
+        },
+        L:
+        {
+            OPT: [
+                {label: "[L_]", nextfunction: "", emit: ""},
+                {label: "RL [L_]", nextfunction: "L", emit: "RL"},
+                {label: "CL [L_]", nextfunction: "L", emit: "CL"},
+                {label: "RC [C_]", nextfunction: "C", emit: "RC"},
+                {label: "RCU [C_]", nextfunction: "C", emit: "RCU"},
+                {label: "RCU", nextfunction: "terminal", emit: "RCU"},
+                {label: "CR [R_]", nextfunction: "R", emit: "CR"},
+                {label: "CRU [R_]", nextfunction: "R", emit: "CRU"},
+                {label: "CRU", nextfunction: "terminal", emit: "CRU"},
+            ],
+        },
+        R:
+        {
+            OPT: [
+                {label: "[R_]", nextfunction: "", emit: ""},
+                {label: "LR [R_]", nextfunction: "R", emit: "LR"},
+                {label: "CR [R_]", nextfunction: "R", emit: "CR"},
+                {label: "LC [C_]", nextfunction: "C", emit: "RC"},
+                {label: "LCU [C_]", nextfunction: "C", emit: "LCU"},
+                {label: "LCU", nextfunction: "terminal", emit: "LCU"},
+                {label: "CL [L_]", nextfunction: "L", emit: "CL"},
+                {label: "CLU [L_]", nextfunction: "L", emit: "CLU"},
+                {label: "CLU", nextfunction: "terminal", emit: "CLU"},
+            ],
+        },
+        C:
+        {
+            OPT: [
+                {label: "[C_]", nextfunction: "", emit: ""},
+                {label: "LC [C_]", nextfunction: "C", emit: "LC"},
+                {label: "RC [C_]", nextfunction: "C", emit: "RC"},
+                {label: "LR [R_]", nextfunction: "R", emit: "LR"},
+                {label: "LRU [R_]", nextfunction: "R", emit: "LRU"},
+                {label: "LRU", nextfunction: "terminal", emit: "LRU"},
+                {label: "RL [L_]", nextfunction: "L", emit: "RL"},
+                {label: "RLU [L_]", nextfunction: "L", emit: "RLU"},
+                {label: "RLU", nextfunction: "terminal", emit: "RLU"},
+            ],
+        },
+        };
+
+        function nextChoice(elem) {
+            var opt = elem.selectedOptions[0];
+            var choices = allChoices[opt.getAttribute('nextfunction')];
+            elem.parentNode.insertBefore(document.createTextNode(opt.getAttribute('emit')), elem);
+
+            if(!choices.hasOwnProperty('TERMINAL')) {
+                var sel = document.createElement('select');
+                sel.setAttribute('onchange', 'nextChoice(this)');
+
+                for(var i=0; i<choices.OPT.length; i++) {
+                    var opt = document.createElement('option');
+                    opt.appendChild(document.createTextNode(choices.OPT[i].label));
+                    opt.setAttribute('nextfunction', choices.OPT[i].nextfunction);
+                    opt.setAttribute('emit', choices.OPT[i].emit);
+                    sel.appendChild(opt);
+                }
+
+                elem.parentNode.insertBefore(sel,elem);
+                elem.parentNode.removeChild(elem);
+            } else {
+                elem.parentNode.removeChild(elem);
+                var knottext = $('#knot').text()
+                $('#knot').html('<a href="ties.html?LRC=' + knottext + '">' + knottext + '</a>')
+            }
+        }
+
+        function reset() {
+            $('#knot').empty();
+            $('#knot').html('<select id="start"><option selected="true" nextfunction="tie" emit=""/></select>');
+            nextChoice($('#start')[0], 'tie');
+        }
+
+        $(reset);
+    </script>
+---
+
+
+
+
+
+
+# Explore the Singly Tucked tie-tying grammar
+
+The grammar that encodes the 24,882 singly-tucked tie-knots enumerated by Hirsch, Markström, Patterson, Sandberg and Vejdemo-Johansson is:
+
+
+    [tie]    ::= [prefix] ([pair | tuck])* [tuck]
+    [prefix] ::= T | W | &epsilon;
+    [pair]   ::= TT | TW | WT | WW
+    [tuck]   ::= [ttuck2] | [wtuck2]
+    [ttuck2] ::= TT[w0]U | TW[w1]U
+    [wtuck2] ::= WW[w0]U | WT[w2]U
+    [w0]     ::= WW[w1]U | WT[w0]U | TW[w0]U | TT[w2]U |
+                 [ttuck2]'[w2]U    | [wtuck2]'[w1]U    | &epsilon;
+    [w1]     ::= WW[w2]U | WT[w1]U | TW[w1]U | TT[w0]U |
+                 [ttuck2]'[w0]U    | [wtuck2]'[w2]U
+    [w2]     ::= WW[w0]U | WT[w2]U | TW[w2]U | TT[w1]U |
+                 [ttuck2]'[w1]U    | [wtuck2]'[w0]U
+
+
+To start: choose by clicking the pale blue grammar symbol below to build a tieknot. The knot sequence will emerge to the left of the clickable symbol.
+
+```{=html}
+<div id="knot">
+</div>
+
+<div id="lrc">
+</div>
+
+<div style="float: right">
+    <button onclick="reset()">Restart</button>
+</div>
+```
+

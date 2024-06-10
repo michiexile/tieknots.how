@@ -1,0 +1,66 @@
+---
+title: Random tie knots
+author: Mikael Vejdemo-Johansson
+---
+
+
+tl;dr: A [tie knot generation toy](ties.html) by Mikael Vejdemo-Johansson.
+
+## What's this all about?
+
+In 2000, Cambridge physicists Fink and Mao figured out a way to
+list all possible tie knots. They did it by creating a <i>formal
+language</i> to describe tie knots. However, they limited their
+language to fit their idea of a tie knot: tied with the broad blade,
+and finished with a flat front.
+
+In 2012, a series of youtube videos by Alex Krasny went viral
+online, with instructions to tie tie knots like the Trinity and the
+Eldredge. These knots are not in the enumeration by Fink and Mao; they
+don't have a flat front, by design.
+
+During 2013, I have worked out, in collaboration with Anders
+Sandberg, Meredith L. Patterson and Dan Hirsh, the ramifications of
+removing Fink and Mao's restrictions. We have condensed the formal
+language proposed by Fink and Mao to a language with (almost) no
+axioms and three symbols: W, T, U.
+
+T is a clockwise (turnwise) move of
+the knot-tying blade, W is a counter-clockwise move, and U tucks the
+blade under a previous bow. Whether to start with an inwards or
+outwards crossing can be deduced by counting the total number of W and
+T in the knot description string, and all possible strings in W and T
+produce possible tie knots.
+
+For known and named tie knots, we have compiled a [list of different notations and enumerations](knownties.qmd).
+
+We have a preprint on these results up on the [arXiv](http://arxiv.org/abs/1401.8242), and a final paper published at PeerJ Computer Science: [More Ties than we thought](https://peerj.com/articles/cs-2/).
+
+In the [tie knot generator](ties.html) we provide a generator that picks out a random knot
+from our enumeration, and picks a random subset of the possible places
+where a U could be placed. It displays a sequence of knotting cartoons
+to show how to tie that particular knot. Every tie knot here starts
+with crossing the _active_ blade over or under the other blade,
+and the first instruction assumes you have done this in a way that
+places the seam of the tie as indicated in that picture.
+
+You can explore the tie knot grammars and try to piece together a tie knot of your own.
+    We have built interactive explorers for the
+    [original language by Fink and Mao](explore-finkmao.html) and for the
+    [Singly Tucked tie-knot language](explore-singly.html) that includes more
+modern and more complicated knots. We have a third interactive explorer for the
+    [Full tie-knot language](explore-full.html)
+
+You can to read the grammars we specified, and their corresponding knot counts and generating functions at our
+[grammar page](grammar.qmd).
+
+## References
+
+* Fink & Mao: The 85 ways to tie a tie;[the Encyclopedia of tie knots](http://www.tcm.phy.cam.ac.uk/~tmf20/tieknots.shtml)
+* Alex Krasny's [videos](http://www.youtube.com/playlist?list=PLFyhEsmKI5c3R5IHdpWSyEyMtUjhwYF2o)
+* Alexander Knorr's [overview of the history of novel tie knots](http://xirdalium.net/2010/06/20/eldredge-reloaded) and [sartorial blogging](http://xirdalium.net/category/sartorial)
+
+
+## Press mentions
+
+We have collected our press mentions on a [separate page](press.qmd).

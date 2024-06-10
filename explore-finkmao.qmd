@@ -1,0 +1,161 @@
+---
+title: Explore - The full tieknots language
+include-before-body:
+  text: |
+    <script src="jquery-2.0.3.min.js"></script>
+    <script>
+        "use strict";
+        function click(elem) {
+            console.log(elem);
+        }
+
+        function tie(elem) {
+            L(elem);
+        }
+
+        function pickNext(elem) {
+            var nextfunction = elem.selectedOptions[0].getAttribute('nextfunction');
+            if(nextfunction == 'L') {
+                L(elem);
+            }
+            if(nextfunction == 'R') {
+                R(elem);
+            }
+            if(nextfunction == 'C') {
+                C(elem);
+            }
+            if(nextfunction == 'RCU') {
+                RCU(elem);
+            }
+            if(nextfunction == 'LCU') {
+                LCU(elem);
+            }
+        }
+
+        function L(elem) {
+            elem.parentNode.insertBefore(document.createTextNode('L'),elem);
+            var sel = document.createElement('select');
+            sel.setAttribute('onchange', 'pickNext(this)');
+
+            var Lopt = document.createElement('option');
+            Lopt.appendChild(document.createTextNode('[L_]'));
+            sel.appendChild(Lopt);
+
+            var Ropt = document.createElement('option');
+            Ropt.appendChild(document.createTextNode('R [R_]'));
+            Ropt.setAttribute('nextfunction', 'R');
+            sel.appendChild(Ropt);
+
+            var Copt = document.createElement('option');
+            Copt.appendChild(document.createTextNode('C [C_]'));
+            Copt.setAttribute('nextfunction', 'C');
+            sel.appendChild(Copt);
+
+            var RCUopt = document.createElement('option');
+            RCUopt.appendChild(document.createTextNode('RCU'));
+            RCUopt.setAttribute('nextfunction', 'RCU');
+            sel.appendChild(RCUopt);
+
+            elem.parentNode.insertBefore(sel,elem);
+            elem.parentNode.removeChild(elem);
+        }
+
+        function R(elem) {
+            elem.parentNode.insertBefore(document.createTextNode('R'),elem);
+            var sel = document.createElement('select');
+            sel.setAttribute('onchange', 'pickNext(this)');
+
+            var Ropt = document.createElement('option');
+            Ropt.appendChild(document.createTextNode('[R_]'));
+            sel.appendChild(Ropt);
+
+            var Lopt = document.createElement('option');
+            Lopt.appendChild(document.createTextNode('L [L_]'));
+            Lopt.setAttribute('nextfunction', 'L');
+            sel.appendChild(Lopt);
+
+            var Copt = document.createElement('option');
+            Copt.appendChild(document.createTextNode('C [C_]'));
+            Copt.setAttribute('nextfunction', 'C');
+            sel.appendChild(Copt);
+
+            var LCUopt = document.createElement('option');
+            LCUopt.appendChild(document.createTextNode('LCU'));
+            LCUopt.setAttribute('nextfunction', 'LCU');
+            sel.appendChild(LCUopt);
+
+            elem.parentNode.insertBefore(sel,elem);
+            elem.parentNode.removeChild(elem);
+        }
+
+        function C(elem) {
+            elem.parentNode.insertBefore(document.createTextNode('C'),elem);
+            var sel = document.createElement('select');
+            sel.setAttribute('onchange', 'pickNext(this)');
+
+            var Copt = document.createElement('option');
+            Copt.appendChild(document.createTextNode('[C_]'));
+            sel.appendChild(Copt);
+
+            var Lopt = document.createElement('option');
+            Lopt.appendChild(document.createTextNode('L [L_]'));
+            Lopt.setAttribute('nextfunction', 'L');
+            sel.appendChild(Lopt);
+
+            var Ropt = document.createElement('option');
+            Ropt.appendChild(document.createTextNode('R [R_]'));
+            Ropt.setAttribute('nextfunction', 'R');
+            sel.appendChild(Ropt);
+
+            elem.parentNode.insertBefore(sel,elem);
+            elem.parentNode.removeChild(elem);
+        }
+
+        function LCU(elem) {
+            elem.parentNode.insertBefore(document.createTextNode('LCU'),elem);
+            elem.parentNode.removeChild(elem);
+            var knottext = $('#knot').text()
+            $('#knot').html('<a href="ties.html?LRC=' + knottext + '">' + knottext + '</a>')
+        }
+
+        function RCU(elem) {
+            elem.parentNode.insertBefore(document.createTextNode('RCU'),elem);
+            elem.parentNode.removeChild(elem);
+            var knottext = $('#knot').text()
+            $('#knot').html('<a href="ties.html?LRC=' + knottext + '">' + knottext + '</a>')
+        }
+
+        function reset() {
+            $('#knot').empty();
+            $('#knot').html('<select onclick="tie(this)"><option>[tie]</option></select>');
+        }
+    </script>
+---
+
+
+
+
+
+
+# Explore the Fink-Mao tie-tying grammar
+
+The grammar that encodes the original 85 tie-knots enumerated by Fink and Mao is:
+
+
+    [tie] ::= L [L_]
+    [L_] ::= R [R_] | C [C_] | RCU
+    [R_] ::= L [L_] | C [C_] | LCU
+    [C_] ::= R [R_] | L [L_]
+
+
+To start: choose by clicking the pale blue grammar symbol below to build a tieknot. The knot sequence will emerge to the left of the clickable symbol.
+
+```{=html}
+<div id="knot">
+<select onclick="tie(this)"><option>[tie]</option></select>
+</div>
+
+<div style="float: right">
+<button onclick="reset()">Restart</button>
+</div>
+```

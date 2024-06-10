@@ -1,0 +1,29 @@
+project:
+  type: website
+
+author: Mikael Vejdemo-Johansson
+
+website:
+  title: "tieknots.how"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - grammar.qmd
+      - knownties.qmd
+      - press.qmd
+
+resources:
+  - "ties.css"
+  - "jquery-2.0.3.min.js"
+  - "lrc_pngs/"
+  - "data/"
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: true
+
+
+

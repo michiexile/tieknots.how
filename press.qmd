@@ -1,0 +1,151 @@
+---
+title: Press mentions of our research
+---
+
+# We have been featured in media
+
+Here we collect links to the various media mentions we have received.
+
+## Media mentions for the PeerJ Computer Science paper
+
+We did a Reddit /r/science AMA about our work with tieknots on Thursday 9 July, 20xx.
+
+### Big and/or detailed mentions
+
+-   [Le Monde, 2015-06-09](http://www.lemonde.fr/sciences/article/2015/06/09/la-topologie-du-n-ud-de-cravate_4650191_1650684.html)
+-   [Ny Teknik, 2015-06-08](http://www.nyteknik.se/tekniknyheter/article3912366.ece)
+-   [The power of naming: TEDxKTH talk 2015-12-08](https://www.youtube.com/watch?v=2pey8HS7JT8)
+-   [Featured fact for a QI book](http://www.amazon.com/411-Facts-Knock-You-Sideways/dp/0571317774/ref=sr_1_1?ie=UTF8&qid=1433964846&sr=8-1&keywords=1411+qi+facts+to+knock+you+sideways&pebp=1433964850463&perid=04C1896288934A879AE5)
+-   [QI Series N, Episode 15: Next](https://www.comedy.co.uk/tv/qi/episodes/14/15/)
+-   [The New Yorker](https://www.newyorker.com/culture/annals-of-inquiry/the-man-who-invented-fifteen-hundred-necktie-knots)
+
+### Additional Mentions
+
+-   [myNewsDesk, 2015-05-27](http://www.mynewsdesk.com/se/kth/pressreleases/266-682-saett-att-knyta-din-slips-1167764)\
+    The KTH press release.
+-   [MyScienceWork, 2015-05-27](https://www.mysciencework.com/news/12069/the-first-peerj-computer-science-articles-have-arrived)\
+    Mentioned as one of the paper in the launch issue.
+-   [forskning.se, 2015-05-27](http://forskning.se/nyheterfakta/nyheter/pressmeddelanden/266682sattattknytadinslips.5.776bfdfd14d77ad8fcc3d3.html)
+-   [King Magazine, 2015-05-27](http://www.kingmagazine.se/artiklar/nyheter/20150527/266-682-satt-att-knyta-din-slips)
+-   [Helsingborgs Dagblad, 2015-05-27](http://www.hd.se/nyheter/sverige/2015/05/27/266-682-satt-att-knyta-en-slips/)
+-   [Sydsvenskan, 2015-05-27](http://www.sydsvenskan.se/sverige/266-682-satt-att-knyta-en-slips/)
+-   [Inside Science, 2015-05-27](http://www.insidescience.org/content/24882-ways-tie-your-necktie/2891)
+-   [CBS San Francisco, 2015-05-27](http://sanfrancisco.cbslocal.com/2015/05/27/the-matrix-movies-inspires-24882-ways-to-tie-your-necktie/)\
+    Also at related channels [Live 105](http://live105.cbslocal.com/2015/05/27/the-matrix-movies-inspires-24882-ways-to-tie-your-necktie/) and [Alice@97.3](http://radioalice.cbslocal.com/2015/05/27/the-matrix-movies-inspires-24882-ways-to-tie-your-necktie/)
+-   [Vetenskapsradion P1, 2015-05-28](http://sverigesradio.se/sida/avsnitt/549869?programid=406)\
+    Also related [text article.](http://sverigesradio.se/sida/artikel.aspx?programid=406&artikel=6175794)
+-   [Café, 2015-05-28](http://cafe.se/kth-forskare-har-raknat-ut-hur-manga-slipsknutar-det-finns-det-ar-fler-an-du-tror/)
+-   [Expertsvar. 2015-05-27](http://expertsvar.se/pressmeddelanden/266-682-satt-att-knyta-din-slips/)
+-   [Real Clear Science](http://www.realclearscience.com/articles/2015/05/28/24882_ways_to_tie_your_necktie_109241.html)
+-   [My Informs, 2015-05-27](http://myinforms.com/en/a/13408281-24882-ways-to-tie-your-necktie/)
+-   [San Francisco City and Press, 2015-05-27](http://sanfrancisco.cityandpress.com/node/9644030)
+-   [Ask Men, 2015-05-28](http://www.askmen.com/news/fashion/how-to-tie-a-tie-266-682-different-ways.html)
+-   [Oddpad, 2015-05-29](http://oddpad.com/who-knew-there-were-266682-different-ways-to-tie-a-tie/)
+-   [Celebrities Jewelry, 2015-05-29](http://www.celebritiesjewelry.com/05/29/who-knew-there-were-266682-different-ways-to-tie-a-tie/)
+-   [Buzz Blog, Physics Central, 2015-05-29](http://www.physicscentral.com/buzz/blog/index.cfm?postid=5127399933140089546)
+-   [The Newstalkers, 2015-05-31](http://thenewstalkers.com/m/discussion?id=6450411%3ATopic%3A1629194)
+-   [P4 Uppland Morgon, 2015-06-01](http://t.sr.se/1I43rLr)
+-   [philly.com, 2015-06-03](http://www.philly.com/philly/news/science/24882_ways_to_tie_your_necktie.html)
+-   [Forskning.no, 2015-06-03](http://forskning.no/2015/06/hvor-mange-slipsknuter-finnes-det)
+-   [VG.no, 2015-06-03](http://www.vg.no/forbruker/hvor-mange-slipsknuter-finnes-det/a/23463351/)
+-   [Videnskab.dk, 2015-06-03](http://videnskab.dk/kort-nyt/forskere-laver-guide-til-en-kvart-million-slipseknuder)
+-   [Ciencia de la vida cotidiana, 2015-06-03](http://cienciajs.blogspot.com.es/2015/06/nudos-de-corbata.html)
+-   [SVT Nyheter, 2015-06-05](http://www.svt.se/nyheter/inrikes/kth-s-slips-forskare-sa-har-manga-slipsknutar-gar-att-knyta)
+-   [Knoxville News Sentinel, 2015-06-09](http://www.knoxnews.com/news/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [ABC 7 WKBW Buffalo, 2015-06-09](http://www.wkbw.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [ABC Action News Tampa Bay, 2015-06-09](http://www.abcactionnews.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [ABC 23 KERO Bakersfield, 2015-06-09](http://www.turnto23.com/news/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [KJRH Tulsa, 2015-06-09](http://www.kjrh.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [WMAR Baltimore, 2015-06-09](http://www.abc2news.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [Ventura County Star, 2015-06-09](http://www.vcstar.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [Times Record News, Wichita Falls, 2015-06-09](http://www.timesrecordnews.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [San Angelo Standard Times, 2015-06-09](http://www.gosanangelo.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [Corpus Christi Caller Times, 2015-06-09](http://www.caller.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [Newsnet 5 Cleveland, 2015-06-09](http://www.newsnet5.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [rtv6 ABC The Indy Channel, 2015-06-09](http://www.theindychannel.com/news/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [KSHB Kansas City, 2015-06-09](http://www.kshb.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [Naples Daily News, 2015-06-09](http://www.naplesnews.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [WXYZ Detroit, 2015-06-09](http://www.wxyz.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [KGTB ABC 10 News, San Diego, 2015-06-09](http://www.10news.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [Commercial Appeal, Memphis, 2015-06-09](http://www.commercialappeal.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [TC Palm, 2015-06-09](http://www.tcpalm.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [ABC7 News Denver, 2015-06-09](http://www.thedenverchannel.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [Evansville Courier Press, 2015-06-09](http://www.courierpress.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [WCPO Cincinatti, 2015-06-09](http://www.wcpo.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [ABC 15 Arizona, 2015-06-09](http://www.abc15.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [WPTV West Palm Beach, 2015-06-09](http://www.wptv.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie%22)
+-   [Kitsap Sun, 2015-06-09](http://www.kitsapsun.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [Redding Record Searchlight, 2015-06-09](http://www.redding.com/news/national/scientists-discover-24882-ways-to-tie-a-necktie)
+-   [DN 2015-06-16](http://dela.dn.se/AYIDB4zSzDEo_WXgh3JzRMUxzahbnzcFAi73fA3wzjWqZZOlmQHV2UHkkupMVNXlHy-bnoLdn6ER8KEyrItUHw,,)
+-   [The Tribune India, 2015-07-11](http://www.tribuneindia.com/news/trends/all-tied-up/103283.html)
+
+## Media mentions for the arXiv preprint
+
+-   [New Scientist, 2014-02-07](http://www.newscientist.com/article/dn25019-matrix-villain-spawns-177000-ways-to-knot-a-tie.html)\
+    [New Scientist, print magazine issue 2956](http://www.newscientist.com/article/mg22129563.600-matrix-villain-spawns-177000-ways-to-knot-a-tie.html)
+-   [wykop.pl, 2014-02-07](http://www.wykop.pl/link/1857578/generator-177-147-wiazan-krawatow/)
+-   [io9, 2014-02-07](http://io9.com/there-are-177-000-ways-to-tie-a-tie-mathematicians-rep-1518449555)
+-   [News.in.gr, 2014-02-08](http://news.in.gr/science-technology/article/?aid=1231294040)
+-   [The Daily Mail, 2014-02-08](http://www.dailymail.co.uk/sciencetech/article-2554966/Scientist-discovers-177-000-ways-knot-tie-inspired-Matrix-villain.html)
+-   [Jutarnji, 2014-02-09](http://www.jutarnji.hr/video--postoji-cak-177-147-nacina-da-zavezete-kravatu-naucite-ih-uz-pomoc--tie-knot-generatora--/1163411/)
+-   [The Hindu Business Online, 2014-02-09](http://www.thehindubusinessline.com/news/science/mathematicians-find-177147-ways-to-knot-a-tie/article5670385.ece)
+-   [Forte, 2014-02-10](http://forte.delfi.ee/news/teadus/kas-sa-ikka-solme-teha-oskad-voimalike-lipsusolmede-arv-kasvas-ule-177-000.d?id=67782479)
+-   [iwbe, 2014-02-10](http://iwbe.ru/present/Issledovano-bolee-100000-sposobov-dlya-zavyazki-galstuka/)
+-   [Alaxon, 2014-02-10](http://alaxon.co.il/daily/%D7%90%D7%99%D7%9A-%D7%9E%D7%AA%D7%9E%D7%98%D7%99%D7%A7%D7%90%D7%99-%D7%A7%D7%95%D7%A9%D7%A8-%D7%A2%D7%A0%D7%99%D7%91%D7%94/)
+-   [Phys.org, 2014-02-10](http://phys.org/news/2014-02-mathematicians-ways.html)
+-   [Indian Express](http://indianexpress.com/article/lifestyle/life-style/mathematicians-find-177147-ways-to-knot-a-tie/)
+-   [Deccan Chronicle](http://www.deccanchronicle.com/140209/lifestyle-offbeat/article/mathematicians-find-177147-ways-knot-tie)
+-   [First Post](http://www.firstpost.com/living/did-you-know-there-are-177000-ways-you-can-knot-a-tie-1381125.html)
+-   [Asian Age](http://www.asianage.com/newsmakers/knot-your-necktie-177147-ways-168)
+-   [Zhenshen Daily](http://szdaily.sznews.com/html/2014-02/10/content_2773366.htm)
+-   [Geekapolis](http://geekapolis.fooyoh.com/geekapolis_gadgets_wishlist/12025397/mathematician-figured-out-more-than-100000-ways-to-knot-a-tie-video)
+-   [Times of India](http://timesofindia.indiatimes.com/home/science/Mathematicians-find-177147-ways-to-knot-a-tie/articleshow/30134417.cms)
+-   [National Geographic - Indonesia](http://nationalgeographic.co.id/berita/2014/02/metode-matematika-ungkap-177-ribu-cara-mengikat-dasi)
+-   [Exame Informatica](http://exameinformatica.sapo.pt/noticias/ciencia/2014-02-10-Gravatas-ciencia-mostra-que-e-possivel-fazer-177-mil-nos-diferentes)
+-   [Indonesia Raya News](http://indonesiarayanews.com/read/2014/02/10/92843/ada-ribuan-cara-membuat-ikatan-dasi)
+-   [teadus.err.ee](http://teadus.err.ee/v/yhiskond/2ac42977-adaa-456a-b1e7-b1f607c8d89a)
+-   [Noche Geek](http://nochegeek.com/maneras-de-atar-una-corbata/)
+-   [Medimurske Novine](http://www.mnovine.hr/novo/index.php?option=com_content&view=article&id=25406:video-zaveite-kravatu-kao-negativac-iz-matrixa&catid=42:vijesti&Itemid=400&keepThis=true&TB_iframe=true&height=650&width=850&caption=Naslovnica)
+-   [Hurriyet](http://www.hurriyet.com.tr/dunya/25772699.asp)
+-   [hk.apple.nextmedia.com](http://hk.apple.nextmedia.com/international/art/20140210/18620429)
+-   [Milliyet](http://gundem.milliyet.com.tr/kravata-dugum-atmanin-177-bin-147/gundem/detay/1834323/default.htm?ref=OtherNews)
+-   [Okemanado](http://www.okemanado.com/2014/metode-matematika-ungkap-177-ribu-cara-mengikat-dasi/)
+-   [Danas](http://tuzla.danas.info/2014/02/10/za-sve-one-koji-i-dalje-ne-znaju-zavezati-kravatu-nikad-necete-pogoditi-koliko-za-to-postoji-nacina/)
+-   [PC Pult](http://pcpult.hu/it-technologia/hardver/vigyel-egy-kis-valtozatossagot-a-nyakkendod-eletebe.html)
+-   [Factroom.ru](http://www.factroom.ru/facts/48276)
+-   [Elite Daily](http://elitedaily.com/news/world/scientists-figure-out-over-177000-ways-to-tie-a-knot/)
+-   [Daily Bhaskar](http://daily.bhaskar.com/article-hf/WOR-in-how-many-ways-can-you-knot-a-tie-mathematicians-say-177147-4518039-NOR.html)
+-   [Kopalnia Wiedzy](http://kopalniawiedzy.pl/krawat-wiazanie-sposoby-Merowing-teoria-bladzenia-po-kracie-Mikael-Vejdemo-Johansson,19695)
+-   [Geek](http://www.geek.com/science/mathematicians-discover-there-are-180000-ways-to-tie-a-tie-thanks-to-the-matrix-1584589/)
+-   [Huffington Post](http://www.huffingtonpost.com/2014/02/11/ways-to-tie-a-tie-math-video_n_4760867.html?utm_hp_ref=technology&ir=Technology)
+-   [Smithsonian Magazine](http://www.smithsonianmag.com/smart-news/mathematician-calculates-177147-ways-tie-tie-180949709/)
+-   [Slate.fr](http://www.slate.fr/life/83335/noeuds-cravate)
+-   [Discover Magazine](http://blogs.discovermagazine.com/d-brief/2014/02/11/mathematician-calculates-177147-ways-tie-tie)
+-   [Toshiba](http://start.toshiba.com/news/read/category/Technology/article/popular_sc-there_are_177147_ways_to_tie_a_tie-ncrd)
+-   [Sudden Link Communications](http://home-uat.suddenlink.net/news/read/category/Technology/article/popular_sc-there_are_177147_ways_to_tie_a_tie-ncrd)
+-   [Popular Science](http://www.popsci.com/article/science/there-are-177147-ways-tie-tie)
+-   [Neatorama](http://www.neatorama.com/2014/02/11/According-to-Mathematicians-There-Are-177147-Ways-to-Tie-a-Tie)
+-   [cNet](http://www.cnet.com.au/mathematicians-find-177147-ways-to-tie-a-tie-339346611.htm)
+-   [aperiodical](http://aperiodical.com/2014/02/tie-tie-tie-a-tie-fly-fly-fly-as-you-might/)
+-   [tekniikka & talous](http://www.tekniikkatalous.fi/viihde/arvaatko+kuinka+monella+tapaa+solmion+voi+solmia+matemaatikko+laski/a966842)
+-   [Pretty Awful Things](http://prettyawfulthings.com/2014/02/12/177000-ways-to-knot-a-tie/)
+-   [Slate Video](http://www.slate.com/articles/video/video/2014/02/how_many_ways_are_there_to_tie_a_tie_177_147_according_to_researchers.html)
+-   [Business Insider](http://www.businessinsider.com/random-tie-tying-generator-2014-2)
+-   [SF Chronicle](http://www.sfgate.com/technology/businessinsider/article/Here-Are-More-Than-177-000-Ways-To-Tie-A-Tie-5233745.php)
+-   [Wink TV](http://www.winknews.com/Weird/2014-02-14/Mathematicians-find-177147-ways-to-tie-a-necktie#.Uv4VL2QqdLU)
+-   [Mega Superb](http://www.megasuperb.com/there-are-177147-ways-to-tie-a-tie/)
+-   [Focus.it](http://www.focus.it/cultura/curiosita/le-cravatte-esistono-177147-modi-per-annodarle_C12.aspx)
+-   [Off.net.mk](http://off.net.mk/zezalici/kanta/brejking-njus-za-vratovrskite)
+-   [NPR](http://www.npr.org/2014/02/15/277385129/the-thousands-of-ways-to-tie-a-tie), also on at least 24 subsidiaries
+-   [Sapendolo](http://www.sapendolo.it/177147-modi-annodare-cravatta/)
+-   [El Pais](http://elpais.com/elpais/2014/02/17/icon/1392648957_252488.html)
+-   [KTH Press Release](http://www.kth.se/en/aktuellt/nyheter/mathematician-sees-tie-between-knots-and-cyber-security-1.456411)
+-   [Ingeniøren](http://ing.dk/artikel/matematisk-beregning-du-kan-binde-dit-slips-paa-177147-maader-166504)
+-   [Gentside](http://www.gentside.com/cravate/quand-039-039-matrix-039-039-devient-une-source-d-039-inspiration-geniale-pour-les-noeuds-de-cravate_art59149.html)
+-   [L\'Intégrale de Eljjdx](http://eljjdx.canalblog.com/archives/2014/02/23/29251687.html) a REALLY nice (french) explanation of our result and their context.
+-   [WANT](http://www.want.nl/met-de-tie-knot-generator-kun-je-een-stropdas-op-177-147-verschillende-manieren-strikken/)
+-   [Wired.it](http://www.wired.it/scienza/lab/2014/03/18/matematica-nodo-cravatta/)
+-   [I Programmer](http://www.i-programmer.info/news/112-theory/6944-more-ties-than-we-thought-or-ties-of-the-matrix.html)
+-   [Buzzfeed](http://www.buzzfeed.com/tiebros/10-mens-necktie-facts-you-never-knew-wlhp) - we are now a tieknot fact
+-   [Businessme.nl stropdasknopen](stropdasknopen.com/testblog)
+

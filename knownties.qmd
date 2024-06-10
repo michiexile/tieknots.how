@@ -1,0 +1,59 @@
+---
+title: Known necktie knots
+---
+
+# Known named tieknots and their knotting sequences
+
+  Tie knot name                                                                                         RLC-sequence         WT-sequence         Fink and Mao index   H-P-S-VJ-index
+  ----------------------------------------------------------------------------------------------------- -------------------- ------------------- -------------------- ----------------
+  Oriental                                                                                              LRCU                 WWU                 1                    C-1
+  4-in-hand                                                                                             LRLCU                WTTU                2                    C-2
+  Kelvin                                                                                                LRLRCU               WTWWU               3                    C-5
+  Nicky                                                                                                 LCRLCU               TTTTU               4                    C-3
+  Pratt/Shelby                                                                                          LCLRCU               TWWWU               5                    C-4
+  Victoria                                                                                              LRLRLCU              WTWTTU              6                    C-8
+  half-Windsor                                                                                          LRCLRCU              WWWWWU              7                    C-10
+  co-half-Windsor                                                                                       LRCRLCU              WWTTTU              8                    C-9
+  St Andrew                                                                                             LRLCRLCU             WWWWTTU             12                   C-21
+  co-St Andrew                                                                                          LRLCLRCU             WWTTWWU             14                   C-20
+  Plattsburgh                                                                                           LCRCLRCU             TTWTTTU             18                   C-12
+  co-Plattsburgh                                                                                        LCRCRLCU             TWTTTTU             19                   C-13
+  Cavendish                                                                                             LRLCRLRCU            WTWWWWWU            23                   C-39
+  Christensen                                                                                           LRCLRLRCUU           WTWWTTTU            25                   C-34
+  co-Christensen                                                                                        LRCRLRLRCUU          TTTWTWWU            27                   C-24
+  Windsor                                                                                               LCRLCRLCU            TWWWWWWU            31                   C-38
+  co-Windsor 1 (Novotny calls this Persian)                                                             LCLRCLRCU            TTTTWWWU            32                   C-23
+  co-Windsor 2                                                                                          LCRLCLRCU            WWWTTTTU            33                   C-37
+  co-Windsor 3                                                                                          LCLRCRLCU            WWTWWWWU            35                   C-40
+  Granchester                                                                                           LRLRCLRLCU           WTTTTWTTU           44                   C-54
+  co-Granchester                                                                                        LRLRCRLRCU           WTTWWTWWU           48                   C-72
+  Hanover                                                                                               LRCLRCLRCU           WWTTTTTTU           54                   C-58
+  co-Hanover 1                                                                                          LRCRLCRLCU           WWWWWTTTU           55                   C-84
+  co-Hanover 2                                                                                          LRCLRCRLCU           TTTWWWWWU           56                   C-59
+  co-Hanover 3                                                                                          LCRLCRLRCU           WWTTTWWWU           58                   C-77
+  Balthus                                                                                               LCRCLCRLCU           TWTTWWWWU           78                   C-63
+  co-Balthus                                                                                            LCRCLCLRCU           TWTTWTTTU           81                   C-51
+  [Edeity](http://www.youtube.com/watch?v=qFdk-IT2cmg) aka Merovingian                                  LCLRCRLCU            TWWWTTTU                                 C-30
+  [Trinity](http://www.youtube.com/watch?v=2Ioxajtj2gA)                                                 LCLRCRLCURLU         TWWWTTTUTTU                              L-110
+  [Eldredge](http://www.youtube.com/watch?v=gKs7WwrEaIs)                                                LCRLRCRLUCRCLU       TTTWWTTUTTWWU                            L-373
+  [Allwin](http://fairyfrog.deviantart.com/art/The-Allwin-tie-knot-Tutorial-433909390)                  LCLRCLRLRCUULRU      TWWWWWTWWUUWWU                           R-650
+  [Cape](http://www.youtube.com/watch?v=gUVBQ00iwTI)                                                    LCRLRCRLCU           TTTWWTTTU                                C-46
+  [Truelove](http://www.youtube.com/watch?v=Hrgu75j-Llw)                                                RCRLCRLCUCRUUU       Not a T/W-knot                           
+  [Murrell](http://www.youtube.com/watch?v=Lot7tq1Valo) (thin end Windsor)                              LCLRCLRCU            TWWWWWWU                                 C-38
+  [Atlantic](http://www.youtube.com/watch?v=KBd8bRbRISo)                                                LCRLCU               TTTTU                                    C-3
+  [Novotny](http://www.youtube.com/watch?v=QVo5V3D_C6Y)                                                 LCRLRCLRUCLCRU       TTTWWWWUWWTTU                            R-451
+  [Floating Spiral](http://www.youtube.com/watch?v=z5sWQNWzsCk) (odd mid-tuck)                          LRLRLRUCU            WTWTWUWU                                 C-19
+  [Van Wijk](http://www.youtube.com/watch?v=YBsIQZ3GOoY)                                                LRLRLRLCUUU          WTWTWTTUUU                               C-33
+  [Taurus](http://www.youtube.com/watch?v=Q5-Np9zDADE) (broad blade)                                    LCLRCU.UULCU         TWWWU.UUTTU                              L-15
+  [Fishbone](http://www.youtube.com/watch?v=8SocEpK0b4I)                                                LCRLCRCLCRCLCRU      TTTTTWWTTWWTTU                           
+  [Rose knot](http://www.youtube.com/watch?v=J22PLA6e7UY)                                               LCRLRCLRUCLU         TTTWWWWUWWU                              L-128
+  [Ellieknot](http://www.youtube.com/watch?v=nbnbYYpYkgo) (backside tuck)                               LCRLRCLRCLCRCU       TTTWWWWWWTTWU                            
+  [Boutonniere](http://www.youtube.com/watch?v=n8mGf5JN4Xc) (no tuck)                                   LCRLCRCLCRCLCRCLCR   TTTTTWWTTWWTTWWTT                        
+  [Capsule](http://www.youtube.com/watch?v=b6dD3nokKn8)                                                 LCRLRCRLCRUU\'U      TTTWWTTTTUU\'U                           R-92
+  [Eric Glennie Braided](http://www.youtube.com/watch?v=ugVkQfzRfIs) (backside tuck)                    LCRLCRUCU            TTTTTUWU                                 
+  [Four Rings](http://www.youtube.com/watch?v=6Anx_uIadJc) (backside tuck(                              LCRLU\'UUCU          TTTU\'UUTU                               C-3
+  [Diagonal](http://www.youtube.com/watch?v=RtdZFrVTONk) (broad blade, tuck goes downward, twist tie)   LRLRCLUU             WTWWWUU                                  L-9
+
+Fink and Mao indices from [Tomas Fink\'s Encyclopedia of Tie Knots](http://www.tcm.phy.cam.ac.uk/~tmf20/tieknots.shtml).\
+Hirsh-Patterson-Sandberg-Vejdemo Johansson-indices from [More Ties than we thought](http://arxiv.org/abs/1401.8242).
+
